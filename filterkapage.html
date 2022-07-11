@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Page</title>
+    <link rel="stylesheet" href="filterka.css" />
+</head>
+<body>
+    <div class="f-header">
+        <div class="f-logo">
+            <b>e!</b>
+        </div>
+        <div style="float: right;">
+            <div class="login">Login</div>
+            <div class="register">Register</div>
+        </div>
+    </div>
+    
+    <div class="f-main-bg">
+        <!-- Our Main Title -->
+        <div class="f-main-heading">Breakfast Places in Mumbai</div>
+        <!-- Filter Block -->
+        <div class="f-filter-block">
+            <h6 class="f-filter-heading">Filter Class</h6>
+            <h5 class="f-filter-location-heading">Select Location</h5>
+            <select class="f-select-option">
+                <option>Select a Location</option>
+            </select>
+            <br /> <br />
+            <h5 class="f-filter-location-cuisine">Cuisine</h5>
+            <input class="f-input-type" type="checkbox" id="1">
+            <label for="1"> North Indian</label><br>
+            <input class="f-input-type" type="checkbox" id="2">
+            <label for="2"> South Indian</label><br>
+            <input class="f-input-type" type="checkbox" id="3">
+            <label for="3"> Fast Food</label><br>
+            <input class="f-input-type" type="checkbox" id="4">
+            <label for="4"> Street Food</label><br>
+            <br /> <br />
+            <h5 class="f-filter-location-cuisine">Cost For Two</h5>
+            <input class="f-input-type" type="radio" id="Less than 500" name="Less than 500" value="Less than 500">
+            <label for="Less than 500">Less than 500</label><br>
+            <input class="f-input-type" type="radio" id="500 to 1000" name="500 to 1000" value="500 to 1000">
+            <label for="500 to 1000">500 to 1000</label><br>
+            <input class="f-input-type" type="radio" id="1000 to 1500" name="1000 to 1500" value="1000 to 1500">
+            <label for="1000 to 1500">1000 to 1500</label><br>
+            <input class="f-input-type" type="radio" id="1500 to 2000" name="1500 to 2000" value="1500 to 2000">
+            <label for="1500 to 2000">1500 to 2000</label><br>
+            <input class="f-input-type" type="radio" id="2000+" name="2000+" value="2000+">
+            <label for="2000+">2000+</label><br>
+            <br /> <br />
+            <h5 class="f-filter-location-cuisine">Sort</h5>
+            <input class="f-input-type" type="radio" id="Price low to high" name="Price low to high" value="Price low to high">
+            <label for="Price low to high">Price low to high</label><br>
+            <input class="f-input-type" type="radio" id="Price high to low" name="Price high to low" value="Price high to low">
+            <label for="Price high to low">Price high to low</label><br>
+        </div>
+        <!-- Result Blocks -->
+        <div style="display: inline-block; vertical-align: top;">
+            <div class="f-item">
+                <div style="display: inline-block;">
+                    <img class="f-images" src="image.png"/>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <div class="t1">The Big Chill Cakery</div>
+                    <div class="t2">FORT</div>
+                    <div class="t3">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                </div>
+                <div>
+                    <table>
+                        <tr style="text-align: left;">
+                            <th>CUISINES</th>
+                            <td>Bakery</td>
+                        </tr>
+                        <tr>
+                            <th>COST FOR TWO</th>
+                            <td>&#8377;700</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="f-item">
+                <div style="display: inline-block;">
+                    <img class="f-images" src="image.png"/>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <div class="t1">The Big Chill Cakery</div>
+                    <div class="t2">FORT</div>
+                    <div class="t3">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                </div>
+                <div>
+                    <table>
+                        <tr style="text-align: left;">
+                            <th>CUISINES</th>
+                            <td>Bakery</td>
+                        </tr>
+                        <tr>
+                            <th>COST FOR TWO</th>
+                            <td>&#8377;700</td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
